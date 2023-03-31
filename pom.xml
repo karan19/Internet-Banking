@@ -31,6 +31,9 @@
 		</pluginRepository>
 	</pluginRepositories>
 	<properties>
+		<sonar.host.url>http:54.172.80.88:9000/</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
@@ -73,6 +76,21 @@
 			<version>3.0.6</version>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+            <repository>
+                <id>nexus</id>
+                <name>Landmark Technologies Releases Nexus Repository</name>
+                <url>http://54.90.200.218:8081/repository/internet-banking-release/</url>
+            </repository>
+
+           <snapshotRepository>
+                <id>nexus</id>
+                <name>Landmark Technologies Snapshot Nexus Repository </name>
+                <url>http://54.90.200.218:8081/repository/internet-banking-snapshot/</url>
+           </snapshotRepository>
+       </distributionManagement>
+
 	<profiles>
 		<profile>
 			<!-- When built in OpenShift the 'openshift' profile will be used when 
