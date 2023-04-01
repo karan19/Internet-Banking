@@ -33,7 +33,7 @@
 			<!-- ============ HEADER SECTION ============== -->
 			<tr style="height:80px">
 				<td width="220px">
-					<a href="../"><img src="../images/jntu-logo.png" alt="JNTU Logo" height="80px" width="220px"></a>
+					<a href="../"><img src="../images/jntu-logo.png" alt="Marigold Logo" height="80px" width="220px"></a>
 				</td>
 				<td style="background-color:#cb0076;color:white;text-align:center;font-size:45px">
 					Jawaharlal Nehru Bank Internet Banking
@@ -80,7 +80,7 @@
 			<!-- ============ FOOTER SECTION ============== -->
 			<tr>
 				<td colspan="2" style="height:20px;padding:5px;text-align:center;background-color:#e7e6e6">
-					JNTUHCEH Internet Banking Mini Project
+					Marigold Internet Banking Mini Project
 				</td>
 			</tr>
 		</table>
@@ -89,7 +89,7 @@
 			<!-- ============ FOOTER SECTION ============== -->
 			<tr>
 				<td align="center" bgcolor="#e7e6e6" colspan="2" height="20px">
-					&#169; JNTUHCEH Internet Banking Mini Project
+					&#169; Marigold Internet Banking Mini Project
 				</td>
 			</tr>
 		</table>
