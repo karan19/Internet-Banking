@@ -39,10 +39,10 @@
 		toDate2 = toDate;
 		
 		DateFormat insertFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		insertFormat.setTimeZone(TimeZone.getTimeZone("Asia/Calcutta"));
+		insertFormat.setTimeZone(TimeZone.getTimeZone("America/New_York"));
 		
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-		df.setTimeZone(TimeZone.getTimeZone("Asia/Calcutta"));
+		df.setTimeZone(TimeZone.getTimeZone("America/New_York"));
 	
 		Date toDt = df.parse(toDate);
 		
@@ -74,10 +74,10 @@
 			<!-- ============ HEADER SECTION ============== -->
 			<tr style="height:80px">
 				<td width="220px">
-					<a href="../"><img src="../images/jntu-logo.png" alt="JNTU Logo" height="80px" width="220px"></a>
+					<a href="../"><img src="../images/Marigold-logo.png" alt="Marigold Logo" height="80px" width="220px"></a>
 				</td>
 				<td style="background-color:#cb0076;color:white;text-align:center;font-size:45px">
-					JNTU Bank Internet Banking
+					Marigold Bank Internet Banking
 				</td>
 			</tr>
 			<!-- ============ NAVIGATION BAR SECTION ============== -->
@@ -99,7 +99,7 @@
 				</td>
 				<!-- ============ RIGHT COLUMN (CONTENT) ============== -->
 				<td style="background-color:white;vertical-align:top;">
-					<marquee  onmouseover="this.stop()" onmouseout="this.start()"><font color="blue">Welcome to JNTU Bank Internet Banking</font></marquee>
+					<marquee  onmouseover="this.stop()" onmouseout="this.start()"><font color="blue">Welcome to Marigold Bank Internet Banking</font></marquee>
 					<form action="detail-filtered.jsp" method="POST">
 						<table align="center" border="0">
 							<tr>
@@ -207,7 +207,7 @@
 			<!-- ============ FOOTER SECTION ============== -->
 			<tr>
 				<td colspan="2" style="height:20px;padding:5px;text-align:center;background-color:#e7e6e6">
-					JNTUHCEH Internet Banking Mini Project
+					Marigold Internet Banking Mini Project
 				</td>
 			</tr>
 		</table>
@@ -216,7 +216,7 @@
 			<!-- ============ FOOTER SECTION ============== -->
 			<tr>
 				<td align="center" bgcolor="#e7e6e6" colspan="2" height="20px">
-					&#169; JNTUHCEH Internet Banking Mini Project
+					&#169; Marigold Internet Banking Mini Project
 				</td>
 			</tr>
 		</table>

@@ -46,10 +46,10 @@
 			<!-- ============ HEADER SECTION ============== -->
 			<tr style="height:80px">
 				<td width="220px">
-					<a href="http://miniproject-jntuhceh.rhcloud.com/"><img src="../images/jntu-logo.png" alt="JNTU Logo" height="80px" width="220px"></a>
+					<a href="http://miniproject-jntuhceh.rhcloud.com/"><img src="../images/Marigold-logo.png" alt="Marigold Logo" height="80px" width="220px"></a>
 				</td>
 				<td style="background-color:#cb0076;color:white;text-align:center;font-size:45px">
-					JNTU Bank Internet Banking
+					Marigold Bank Internet Banking
 				</td>
 			</tr>
 			<!-- ============ NAVIGATION BAR SECTION ============== -->
@@ -77,7 +77,7 @@
 				</td>
 				<!-- ============ RIGHT COLUMN (CONTENT) ============== -->
 				<td bgcolor="white" valign="top">
-					<marquee  onmouseover="this.stop()" onmouseout="this.start()"><font color="blue">Welcome to JNTU Bank Internet Banking</font></marquee>
+					<marquee  onmouseover="this.stop()" onmouseout="this.start()"><font color="blue">Welcome to Marigold Bank Internet Banking</font></marquee>
 					<table class="content" border="1" style="border-collapse:collapse;" align="center" cellpadding="10px">
 							<tr>
 								<th colspan="2">Your Details</th>
@@ -112,7 +112,7 @@
 			<!-- ============ FOOTER SECTION ============== -->
 			<tr>
 				<td align="center" bgcolor="#e7e6e6" colspan="2" height="20px">
-					© JNTUHCEH Internet Banking Mini Project
+					© Marigold Internet Banking Mini Project
 				</td>
 			</tr>
 		</table>
